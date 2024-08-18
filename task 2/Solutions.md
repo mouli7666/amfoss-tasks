@@ -19,5 +19,5 @@ In the part 4 , they asked me to decode the sum of all the four important codes 
 In this part,I came into GodSuite branch and I read all the open book scripture.txt files and I got the secret code what I want and I decode that code using ("clone '_____________'  | base64 -d"). And I opened the link ,It opens to another github repository and they instructed me to clone the repository and I did it and I run the victoy.py file and I recived the winning token.Thats how I did part 5
 
 # Experience #
-As I mentioned above that ##" I searched for that and I got it "## .This is not as much easier as I told . While I am doing this parts some times Literally I got Headache, And some times My brain was freezed and dont know what to do.
+As I mentioned above that  ## " I searched for that and I got it " ## .This is not as much easier as I told . While I am doing this parts some times Literally I got Headache, And some times My brain was freezed and dont know what to do.
 But still I learn so many things about git  and github and how they related and also what are the commands of git and what are the commands of terminal and many things..
