@@ -8,7 +8,7 @@
    Iam very much interested to do research in AI and also interested in playing instruments and so on.
   
     
-- ## Why should we choose you? ##
+- ## Why should you choose me? ##
 
    You should choose me, Why because I'am the person who has very much intersted in doing research on my new ideas in any projects, even in schoolhood.
    As an example I presented a mini walking robot, a flying drone with the motors and also demonstrated the motor in deep, etc.. 
