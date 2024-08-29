@@ -10,30 +10,30 @@ I am doing a Documentation of the Files of "pytorch_geometric" repository.This i
 
 1.**Clone the Repository**
 
-'''bash
+```bash
 git clone https://github.com/pyg-team/pytorch_geometric.git
 
 After doing this,The repository is cloned into your system. 
-'''bash
+```bash
 cd pytorch_geometric
 
 
 2.** Prerequisites**
 -You system consists of Python from 3.8 to 3.12 any of them is ok. And you should also install the PyTorch on your system.
 -You can verify your PyTorch installation with:
-'''bash
+```bash
 python -c "import torch; print(torch.__version__)"
 
 
 3.**Installation Methods**
 -You can install PyG directly using pip: 
-'''bash
+```bash
 pip install torch_geometric
 
 
 4.**Optional Libraries**
 -You should want some Optional Libraries such as torch_scatter, torch_sparse, torch_cluster, and torch_spline_conv:
-'''bash
+```bash
 pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-${TORCH}+${CUDA}.html
 
 Replace ${TORCH} and ${CUDA} with your specific versions of PyTorch and CUDA​((PyTorch Geometric).
