@@ -12,10 +12,10 @@ I am doing a Documentation of the Files of "pytorch_geometric" repository.This i
 
 ```bash
 git clone https://github.com/pyg-team/pytorch_geometric.git
+cd pytorch_geometric
 
 After doing this,The repository is cloned into your system. 
-```bash
-cd pytorch_geometric
+
 
 
 2.** Prerequisites**
