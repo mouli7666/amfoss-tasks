@@ -18,7 +18,7 @@ After doing this,The repository is cloned into your system.
 
 
 
-2.** Prerequisites**
+2.**Prerequisites**
 -You system consists of Python from 3.8 to 3.12 any of them is ok. And you should also install the PyTorch on your system.
 -You can verify your PyTorch installation with:
 ```bash
