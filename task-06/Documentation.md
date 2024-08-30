@@ -1,19 +1,35 @@
 # Documentation for pytorch_geometric
 
+
+
 # Overview
   
   pytorch_geometric repository which is a popular open source library built on pyTorch. It is especially built for the designed for the deep learning of irregular data structures like graphs and point clouds it is mainly used by the researchers, students, scholars etc.
 
+
+
 ## Features
+
 -**`Data Handling`** It is very much useful for handling and processing graph data, including loading data from popular graph datasets.
+
 -**`Models and Tasks`** It has pre built models and utilities for common tasks like node classification, link prediction, and graph classification.
+
 -**`Performance`** Efficient CPU and GPU operations for large-scale graph data using PyTorch’s tensor-based computations.
+
 -**`Integration with PyTorch Ecosystem`** By Integration with PyTorch Ecosystem you can use pyTorch's deep learning experiences.
 
+
+
+
 ## Purpose
+
 -Enables the implementation of Graph Neural Networks (GNNs) on irregular structures such as graphs, point clouds, and manifolds.
+
 -visualizing graphs and tracking experiments.
+
 -It simplifies working with graph data and performing tasks
+
+
 
 ## Documentation of the code
 
@@ -41,6 +57,7 @@
 
   model = GCN(dataset.num_features, 16, dataset.num_classes)
   ``` 
+
 -**Create your own GNN layer**
   ```bash
   import torch
@@ -72,16 +89,20 @@
 ## Functioning of each module
 
 
-1.### torch_geometric.data ###
+### 1.torch_geometric.data ###
+
 -**`Purpose`**: Handles data structures and loading for graph data.
+
 -**`Key Classes`**:
     - `Data`: A data object holding a single graph with attributes like node features, edge indices, labels, etc.
     - `Dataset`: An abstract class for creating graph datasets, handling downloading, processing, and access.
     - `DataLoader`: A DataLoader tailored for handling batches of graph data, supporting mini-batching.
 
 
-2.### torch_geometric.nn ###
+### 2.torch_geometric.nn ###
+
 -**`Purpose`**: Implements a wide range of neural network layers and models specifically designed for graph data.
+
 -**`Key Components`**:
     -`Convolutional Layers`
     -`Aggregation Operators`
@@ -95,8 +116,10 @@
 - This are the key components of module torch_geometric.nn.
 
 
-3.### torch_geometric.transforms ###
+### 3.torch_geometric.transforms ###
+
 -**`Purpose`**: Provides a set of transformation functions to modify and augment graph data, similar to data augmentation in computer vision.
+
 -**`Key Transformations`**:
     -**`BaseTransform`** An abstract base class for writing transforms.
     -**`Center`** Centers node positions pos around the origin.
@@ -104,8 +127,10 @@
     -**`NormalizeScale`** Centers and normalizes node positions to the interval .
 
 
-4.### torch_geometric.utils ###
+### 4.torch_geometric.utils ###
+
 -**`Purpose`**: Utility functions for solving common operations on graph data.
+
 -**`Key Utilities`**:
     -**`scatter`** 
     -**`cumsum`** Returns the cumulative sum of elements of x .
@@ -114,8 +139,10 @@
 
 
 
-5.### torch_geometric.loader ###
+### 5.torch_geometric.loader ###
+
 -**`Purpose`**: It provides a software application where that moves data into a system for specific graph types etc.
+
 -**`key Loaders`**:
     -**`Dataset`** The dataset from which to load the data.
     -**`batch_size`** It tells about how many samples per batch to load
@@ -126,19 +153,29 @@
 
 ## implementation of Key Functions
 
-1.### torch_geometric.data
+
+### 1.torch_geometric.data
+
 -**` Implementation `**: This torch_geometric.data handles various graph data structures, providing an easy way to store and manipulate graph information.
 
-2.### torch_geometric.nn
+
+### 2.torch_geometric.nn
+
 -**` Implementation `**: Implements the graph attention mechanism.
 
-3.### torch_geometric.transforms 
+
+### 3.torch_geometric.transforms 
+
 -**` Implementation `**: Adjusts the edge_index tensor to include edges where each node connects to itself.
 
-4.### torch_geometric.utils
+
+### 4.torch_geometric.utils
+
 -**` Implementation `**: Performs reduction operations (like sum, mean, max) on node features.
 
-5.### torch_geometric.loader
+
+### 5.torch_geometric.loader
+
 -**` Implementation `**: Handles efficient mini-batching of multiple graphs.
 
 
@@ -146,27 +183,40 @@
 ## Uses
 
 
+
 ### 1.Graph Neural Network (GNN) Development
+
 - PyG provides pre-implemented layers for various GNN architectures, such as Graph Convolutional Networks (GCN), Graph Attention Networks (GAT), GraphSAGE, and more. These layers simplify the process of building complex GNN models for tasks like node classification, link prediction, and graph classification.
 
 
+
 ### 2.Data Handling and Transformation
+
 - It offers efficient data structures (Data, Batch, etc.) for representing graphs, and provides utilities for loading and processing popular graph datasets. This makes it easy to work with graph data of various types, including large-scale graphs, dynamic graphs, and heterogeneous graphs.
+
 
 - PyG includes numerous data transformation tools that allow you to manipulate and prepare graph data for training, such as normalizing features, adding self-loops, and converting graphs between different formats.
 
 
+
 ### 3.Scalability
+
 - PyTorch Geometric supports scaling GNNs to large graphs using techniques like neighbor sampling, graph partitioning, and mini-batch training. This enables users to train models on massive graphs that would otherwise be infeasible with traditional approaches.
 
 
+
 ### 4.Extensive Dataset Support
+
 - PyG offers direct access to a wide range of graph datasets through its dataset module, including popular benchmarks like Cora, PubMed, and larger datasets from the TU Dortmund University repository. It also supports custom dataset loading and processing.
 
 
+
 ### 5.Support for Advanced GNN Variants
+
 - Beyond basic GNN layers, PyG includes support for advanced variants like message passing neural networks (MPNNs), spectral methods, spatial methods, and beyond. This breadth allows users to apply the most suitable GNN variant to their specific problem.
 
 
+
 ### 6.Integration with PyTorch Ecosystem
+
 - It integrates seamlessly with other PyTorch libraries and tools, such as PyTorch Lightning for training and PyTorch’s ecosystem of datasets, making it easy to plug into existing PyTorch workflows.
