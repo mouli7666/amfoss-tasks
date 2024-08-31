@@ -10,30 +10,30 @@
 
 ## Features
 
--**`Data Handling`** It is very much useful for handling and processing graph data, including loading data from popular graph datasets.
+- **`Data Handling`** It is very much useful for handling and processing graph data, including loading data from popular graph datasets.
 
--**`Models and Tasks`** It has pre built models and utilities for common tasks like node classification, link prediction, and graph classification.
+- **`Models and Tasks`** It has pre built models and utilities for common tasks like node classification, link prediction, and graph classification.
 
--**`Performance`** Efficient CPU and GPU operations for large-scale graph data using PyTorch’s tensor-based computations.
+- **`Performance`** Efficient CPU and GPU operations for large-scale graph data using PyTorch’s tensor-based computations.
 
--**`Integration with PyTorch Ecosystem`** By Integration with PyTorch Ecosystem you can use pyTorch's deep learning experiences.
+- **`Integration with PyTorch Ecosystem`** By Integration with PyTorch Ecosystem you can use pyTorch's deep learning experiences.
 
 
 
 
 ## Purpose
 
--Enables the implementation of Graph Neural Networks (GNNs) on irregular structures such as graphs, point clouds, and manifolds.
+- Enables the implementation of Graph Neural Networks (GNNs) on irregular structures such as graphs, point clouds, and manifolds.
 
--visualizing graphs and tracking experiments.
+- visualizing graphs and tracking experiments.
 
--It simplifies working with graph data and performing tasks
+- It simplifies working with graph data and performing tasks
 
 
 
 ## Documentation of the code
 
--**Train your own GNN model**
+- **Train your own GNN model**
   ```bash
   import torch
   from torch import Tensor
@@ -58,7 +58,7 @@
   model = GCN(dataset.num_features, 16, dataset.num_classes)
   ``` 
 
--**Create your own GNN layer**
+- **Create your own GNN layer**
   ```bash
   import torch
   from torch import Tensor
@@ -91,9 +91,9 @@
 
 ### 1.torch_geometric.data ###
 
--**`Purpose`**: Handles data structures and loading for graph data.
+- **`Purpose`**: Handles data structures and loading for graph data.
 
--**`Key Classes`**:
+- **`Key Classes`**:
     - `Data`: A data object holding a single graph with attributes like node features, edge indices, labels, etc.
     - `Dataset`: An abstract class for creating graph datasets, handling downloading, processing, and access.
     - `DataLoader`: A DataLoader tailored for handling batches of graph data, supporting mini-batching.
@@ -101,53 +101,53 @@
 
 ### 2.torch_geometric.nn ###
 
--**`Purpose`**: Implements a wide range of neural network layers and models specifically designed for graph data.
+- **`Purpose`**: Implements a wide range of neural network layers and models specifically designed for graph data.
 
--**`Key Components`**:
-    -`Convolutional Layers`
-    -`Aggregation Operators`
-    -`Normalization Layers`
-    -`Pooling Layers`
-    -`Unpooling Layers`
-    -`Models`
-    -`KGE Models`
-    -`Encodings`
+- **`Key Components`**:
+    - `Convolutional Layers`
+    - `Aggregation Operators`
+    - `Normalization Layers`
+    - `Pooling Layers`
+    - `Unpooling Layers`
+    - `Models`
+    - `KGE Models`
+    - `Encodings`
 
 - This are the key components of module torch_geometric.nn.
 
 
 ### 3.torch_geometric.transforms ###
 
--**`Purpose`**: Provides a set of transformation functions to modify and augment graph data, similar to data augmentation in computer vision.
+- **`Purpose`**: Provides a set of transformation functions to modify and augment graph data, similar to data augmentation in computer vision.
 
--**`Key Transformations`**:
-    -**`BaseTransform`** An abstract base class for writing transforms.
-    -**`Center`** Centers node positions pos around the origin.
-    -**`NormalizeRotation`** Rotates all points according to the eigenvectors of the point cloud.
-    -**`NormalizeScale`** Centers and normalizes node positions to the interval .
+- **`Key Transformations`**:
+    - **`BaseTransform`** An abstract base class for writing transforms.
+    - **`Center`** Centers node positions pos around the origin.
+    - **`NormalizeRotation`** Rotates all points according to the eigenvectors of the point cloud.
+    - **`NormalizeScale`** Centers and normalizes node positions to the interval .
 
 
 ### 4.torch_geometric.utils ###
 
--**`Purpose`**: Utility functions for solving common operations on graph data.
+- **`Purpose`**: Utility functions for solving common operations on graph data.
 
--**`Key Utilities`**:
-    -**`scatter`** 
-    -**`cumsum`** Returns the cumulative sum of elements of x .
-    -**`degree`** 
-    -**`softmax`** Computes a sparsely evaluated softmax.
+- **`Key Utilities`**:
+    - **`scatter`** 
+    - **`cumsum`** Returns the cumulative sum of elements of x .
+    - **`degree`** 
+    - **`softmax`** Computes a sparsely evaluated softmax.
 
 
 
 ### 5.torch_geometric.loader ###
 
--**`Purpose`**: It provides a software application where that moves data into a system for specific graph types etc.
+- **`Purpose`**: It provides a software application where that moves data into a system for specific graph types etc.
 
--**`key Loaders`**:
-    -**`Dataset`** The dataset from which to load the data.
-    -**`batch_size`** It tells about how many samples per batch to load
-    -**`shuffle`** If it is set to true then the data will be reshuffled at every epoch.
-    -**`follow_batch`** Creates assignment batch vectors for each key in the list.
+- **`key Loaders`**:
+    - **`Dataset`** The dataset from which to load the data.
+    - **`batch_size`** It tells about how many samples per batch to load
+    - **`shuffle`** If it is set to true then the data will be reshuffled at every epoch.
+    - **`follow_batch`** Creates assignment batch vectors for each key in the list.
 
 
 
@@ -156,27 +156,27 @@
 
 ### 1.torch_geometric.data
 
--**` Implementation `**: This torch_geometric.data handles various graph data structures, providing an easy way to store and manipulate graph information.
+- **` Implementation `**: This torch_geometric.data handles various graph data structures, providing an easy way to store and manipulate graph information.
 
 
 ### 2.torch_geometric.nn
 
--**` Implementation `**: Implements the graph attention mechanism.
+- **` Implementation `**: Implements the graph attention mechanism.
 
 
 ### 3.torch_geometric.transforms 
 
--**` Implementation `**: Adjusts the edge_index tensor to include edges where each node connects to itself.
+- **` Implementation `**: Adjusts the edge_index tensor to include edges where each node connects to itself.
 
 
 ### 4.torch_geometric.utils
 
--**` Implementation `**: Performs reduction operations (like sum, mean, max) on node features.
+- **` Implementation `**: Performs reduction operations (like sum, mean, max) on node features.
 
 
 ### 5.torch_geometric.loader
 
--**` Implementation `**: Handles efficient mini-batching of multiple graphs.
+- **` Implementation `**: Handles efficient mini-batching of multiple graphs.
 
 
 

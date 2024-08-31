@@ -19,20 +19,20 @@ After doing this,The repository is cloned into your system.
 
 
 2.**`Prerequisites:`**
--You system consists of Python from 3.8 to 3.12 any of them is ok. And you should also install the PyTorch on your system.
--You can verify your PyTorch installation with:
+- You system consists of Python from 3.8 to 3.12 any of them is ok. And you should also install the PyTorch on your system.
+- You can verify your PyTorch installation with:
    ```bash
    python -c "import torch; print(torch.__version__)"
    ```
 
 3.**`Installation Methods:`**
--You can install PyG directly using pip: 
+- You can install PyG directly using pip: 
    ```bash
    pip install torch_geometric
    ```
 
 4.**`Optional Libraries:`**
--You should want some Optional Libraries such as torch_scatter, torch_sparse, torch_cluster, and torch_spline_conv:
+- You should want some Optional Libraries such as torch_scatter, torch_sparse, torch_cluster, and torch_spline_conv:
    ```bash
    pip install pyg_lib torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-${TORCH}+${CUDA}.html
    ```
@@ -43,6 +43,6 @@ You can also install this from the source.
 
 
 ## Contribution Guidelines 
--Reporting Issues: Please report any issues or bugs using the GitHub Issues tab.
--Submitting Pull Requests: Fork the repository, make your changes, and submit a pull request with a description of your changes.
+- Reporting Issues: Please report any issues or bugs using the GitHub Issues tab.
+- Submitting Pull Requests: Fork the repository, make your changes, and submit a pull request with a description of your changes.
 
