@@ -1,6 +1,5 @@
 # Thisis the code for telegram bot
 
-```bash
 
 import logging
 from telegram.ext import Application, CommandHandler, MessageHandler, filters
@@ -159,4 +158,3 @@ def main():
 if __name__ == '__main__':
     main()
 
-```
