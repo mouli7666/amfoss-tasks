@@ -1,0 +1,113 @@
+-This is the css code I have written for task-05
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+header .cart {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.product-listing {
+    flex: 2;
+    padding: 20px;
+    overflow-y: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-listing h2 {
+    grid-column: 1 / -1;
+    margin-bottom: 20px;
+}
+
+.product {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    max-height: 200px; 
+}
+
+.command-prompt {
+    flex: 1.5; 
+    padding: 20px;
+    background-color: #444343;
+    color: #787777;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#terminal-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #000000;
+    color: #d9d9d9;
+}
+
+.terminal-output {
+    flex: 1;
+    background-color: #000;
+    color: #eaeaea;
+    padding: 10px;
+    overflow-y: auto;
+    border-radius: 5px;
+    white-space: pre-line;
+}
+
