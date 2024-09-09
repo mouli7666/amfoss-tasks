@@ -9,19 +9,19 @@ import asyncio
 from googleapiclient.errors import HttpError
 from googleapiclient.discovery import build
 
-# Enable logging
+
 logging.basicConfig(level=logging.INFO)
 
-# Telegram Bot Token
+
 TOKEN = '7386063755:AAGrBYUha5yrsWV8bia2KrwatXtmwGPiGnQ'
 
-# Google Books API Key
+
 GOOGLE_BOOKS_API_KEY = 'AIzaSyBDbw9nFKPJpLU-cDiLxvIvAEHFl0DKOOk'
 
-# Google Books API Client
+
 books_service = build('books', 'v1', developerKey=GOOGLE_BOOKS_API_KEY)
 
-# Global variables to store data
+
 last_search_results = {}
 user_reading_lists = {}
 
@@ -30,7 +30,7 @@ async def start(update, context):
 
 async def books(update, context):
     query = ' '.join(context.args)
-    print(f"Query: {query}")  # Log the query
+    print(f"Query: {query}")  
 
     if not query:
         await context.bot.send_message(
