@@ -35,13 +35,12 @@
 
 - ## Task Status
 
-|           |                |           |
-| Task list | Description    | Status    |
-|-----------|----------------|-----------|
-| Task-00   | Install        | Completed |
-|           |   Homebrew     |           |
-|-----------|----------------|-----------|
-| Task-01   | Type Maestro   |     -     |
-|           |                |           | 
-|           |                |           |
+
+| Task list | Description     | Status    |
+|-----------|-----------------|-----------|
+| Task-00   | Install Homebrew| Completed |
+|           |                 |           |
+|           |                 |           |
+| Task-01   | Type Maestro    |     -     |
+|           |                 |           |             
 
