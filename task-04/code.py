@@ -13,10 +13,10 @@ from googleapiclient.discovery import build
 logging.basicConfig(level=logging.INFO)
 
 
-TOKEN = '7386063755:AAGrBYUha5yrsWV8bia2KrwatXtmwGPiGnQ'
+TOKEN = ''
 
 
-GOOGLE_BOOKS_API_KEY = 'AIzaSyBDbw9nFKPJpLU-cDiLxvIvAEHFl0DKOOk'
+GOOGLE_BOOKS_API_KEY = ''
 
 
 books_service = build('books', 'v1', developerKey=GOOGLE_BOOKS_API_KEY)
