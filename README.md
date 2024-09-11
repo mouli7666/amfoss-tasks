@@ -38,14 +38,14 @@
 
 | Task list | Description           | Status                                                            |
 |-----------|-----------------------|-------------------------------------------------------------------|
-| Task-00   | Install Homebrew      | Completed                                                         |
-| Task-01   | Type Maestro          | In progress                                                       |
-| Task-02   | Terminal Chaos        | Completed                                                         |
-| Task-03   | Hello, World!         | printing Hello, World is completed in all languages               |             
-| Task-04   | PagePal               | Bot is responding for the user,But their is no csv and docx files |
-| Task-05   | TerminalTrolly        | Completed                                                         |
-| Task-06   | OpenDocs              | Completed                                                         |
-| Task-07   | Pirate's Dilemma      | Not started                                                       |
-| Task-08   | Blog Burst            | Completed                                                         |
-| Task-09   | HERO-DEX!             | Not started                                                       |
-| Task-10   | Operation Pixel Merge | In progress                                                       |
+| task-00   | Install Homebrew      | Completed                                                         |
+| task-01   | Type Maestro          | In progress                                                       |
+| task-02   | Terminal Chaos        | Completed                                                         |
+| task-03   | Hello, World!         | printing Hello, World is completed in all languages               |             
+| task-04   | PagePal               | Bot is responding for the user,But their is no csv and docx files |
+| task-05   | TerminalTrolly        | Completed                                                         |
+| task-06   | OpenDocs              | Completed                                                         |
+| task-07   | Pirate's Dilemma      | Not started                                                       |
+| task-08   | Blog Burst            | Completed                                                         |
+| task-09   | HERO-DEX!             | Not started                                                       |
+| task-10   | Operation Pixel Merge | In progress                                                       |
