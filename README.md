@@ -28,3 +28,20 @@
    Actually, my field of interest is in AI.
    I have many ideas and thoughts in my brain to implement those, I'am planning to take free hours at the morning and at the evening to improve my skills every day.
    And I also want to do great in extra curriculum activites too. Definitely I'll reach my goals and targets .
+
+
+
+
+
+- ## Task Status
+
+|           |                |           |
+| Task list | Description    | Status    |
+|-----------|----------------|-----------|
+| Task-00   | Install        | Completed |
+|           |   Homebrew     |           |
+|-----------|----------------|-----------|
+| Task-01   | Type Maestro   |     -     |
+|           |                |           | 
+|           |                |           |
+
