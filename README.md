@@ -41,11 +41,11 @@
     | [task-00](https://github.com/mouli7666/amfoss-tasks/tree/main/task-00)  | Install Homebrew      | Completed                                                         |
     | [task-01](https://github.com/mouli7666/amfoss-tasks/tree/main/task-01)  | Type Maestro          | Submited                                                          |
     | [task-02](https://github.com/mouli7666/amfoss-tasks/tree/main/task-02)  | Terminal Chaos        | Completed                                                         |
-    | [task-03](https://github.com/mouli7666/amfoss-tasks/tree/main/task-03)  | Hello, World!         | printing Hello, World is completed in all languages               |             
-    | [task-04](https://github.com/mouli7666/amfoss-tasks/tree/main/task-04)  | PagePal               | Bot is responding for the user,But their is no csv and docx files |
+    | [task-03](https://github.com/mouli7666/amfoss-tasks/tree/main/task-03)  | Hello, World!         | partilly completed                                                |             
+    | [task-04](https://github.com/mouli7666/amfoss-tasks/tree/main/task-04)  | PagePal               | partilly completed                                                |
     | [task-05](https://github.com/mouli7666/amfoss-tasks/tree/main/task-05)  | TerminalTrolly        | Completed                                                         |
     | [task-06](https://github.com/mouli7666/amfoss-tasks/tree/main/task-06)  | OpenDocs              | Completed                                                         |
-    | task-07                                                                 | Pirate's Dilemma      | Not started                                                       |
+    | task-07                                                                 | Pirate's Dilemma      | Not attempted                                                     |
     | [task-08](https://github.com/mouli7666/amfoss-tasks/tree/main/task-08)  | Blog Burst            | Completed                                                         | 
-    | task-09                                                                 | HERO-DEX!             | Not started                                                       |
-    | task-10                                                                 | Operation Pixel Merge | In progress                                                       |
+    | task-09                                                                 | HERO-DEX!             | Not attempted                                                     |
+    | task-10                                                                 | Operation Pixel Merge | Not attempted                                                     |
