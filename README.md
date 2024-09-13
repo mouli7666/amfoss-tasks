@@ -39,7 +39,7 @@
     | Task list | Description           | Status                                                            |
     |-----------|-----------------------|-------------------------------------------------------------------|
     | task-00   | Install Homebrew      | Completed                                                         |
-    | task-01   | Type Maestro          | In progress                                                       |
+    | task-01   | Type Maestro          | Submited                                                          |
     | task-02   | Terminal Chaos        | Completed                                                         |
     | task-03   | Hello, World!         | printing Hello, World is completed in all languages               |             
     | task-04   | PagePal               | Bot is responding for the user,But their is no csv and docx files |
