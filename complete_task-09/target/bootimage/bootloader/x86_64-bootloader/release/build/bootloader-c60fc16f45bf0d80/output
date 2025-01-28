@@ -1,0 +1,7 @@
+cargo:rerun-if-changed=/Users/chandramouli/Desktop/complete task-09/Cargo.toml
+cargo:rustc-link-search=native=/Users/chandramouli/Desktop/complete task-09/target/bootimage/bootloader/x86_64-bootloader/release/build/bootloader-c60fc16f45bf0d80/out
+cargo:rustc-link-lib=static=kernel_bin-rusk_os
+cargo:rerun-if-env-changed=KERNEL
+cargo:rerun-if-env-changed=KERNEL_MANIFEST
+cargo:rerun-if-changed=/Users/chandramouli/Desktop/complete task-09/target/x86_64-rusk/debug/rusk_os
+cargo:rerun-if-changed=build.rs
